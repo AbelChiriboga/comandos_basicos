@@ -2,4 +2,5 @@
 *.tmp
 /bin
 acces.log
+*.env
 
