@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servicios</title>
+
+  <!-- Bootstrap -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Iconos -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #0f172a;
+      color: white;
+    }
+
+    .card {
+      background-color: #1e293b;
+      border: none;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .icono {
+      font-size: 50px;
+      color: #38bdf8;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">FISEI - UTA</a>
+    </div>
+  </nav>
+
+  <!-- TITULO -->
+  <h1>Nuestros Servicios</h1>
+
+  <!-- CONTENIDO -->
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- BIBLIOTECAS -->
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="bi bi-book icono"></i>
+          <h3 class="mt-3">Bibliotecas Virtuales</h3>
+          <p>
+            Accede a libros digitales, artículos científicos y revistas académicas 
+            actualizadas para apoyar el aprendizaje y la investigación.
+          </p>
+        </div>
+      </div>
+
+      <!-- LABORATORIOS -->
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="bi bi-flask icono"></i>
+          <h3 class="mt-3">Laboratorios</h3>
+          <p>
+            Espacios virtuales y físicos para practicar conocimientos, 
+            realizar experimentos y fortalecer habilidades técnicas.
+          </p>
+        </div>
+      </div>
+
+      <!-- REDES -->
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="bi bi-diagram-3 icono"></i>
+          <h3 class="mt-3">Administración de Redes</h3>
+          <p>
+            Gestión y mantenimiento de redes de computadoras, garantizando 
+            seguridad, conectividad y rendimiento óptimo.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center mt-5 p-3 bg-dark">
+    © 2026 FISEI - UTA
+  </footer>
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
